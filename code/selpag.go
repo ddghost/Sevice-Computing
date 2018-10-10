@@ -50,7 +50,7 @@ func outputFile(inputFile *os.File , fout io.WriteCloser	){
 	defer inputFile.Close()
 	rd := bufio.NewReader(inputFile)
 
-    for {
+	for {
 		if page_type {
 			line, err = rd.ReadString('\f') 
 		}else{
