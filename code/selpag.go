@@ -51,11 +51,11 @@ func outputFile(inputFile *os.File , fout io.WriteCloser	){
 	rd := bufio.NewReader(inputFile)
 
     for {
-		if page_type {
-			line, err = rd.ReadString('\f') 
-		}else{
-			line, err = rd.ReadString('\n') 
-		}
+	if page_type {
+		line, err = rd.ReadString('\f') 
+	}else{
+		line, err = rd.ReadString('\n') 
+	}
         if err != nil || io.EOF == err {
             break
 		}
