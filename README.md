@@ -13,7 +13,7 @@ https://github.com/ddghost/Sevice-Computing/tree/cloudgo-io
 # 3.使用流程
 在当前文件夹直接输入 go run main.go 即可运行
 
-访问127.0.0.1/static/ 支持静态文件服务
+访问127.0.0.1:8080/static/ 支持静态文件服务
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181111120538400.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0REZ2hzb3Q=,size_16,color_FFFFFF,t_70)
 
 
@@ -26,11 +26,11 @@ https://github.com/ddghost/Sevice-Computing/tree/cloudgo-io
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181111121105287.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0REZ2hzb3Q=,size_16,color_FFFFFF,t_70)
 
 
-支持js访问，访问127.0.0.1，来到主页面，上面的Hello是js访问服务器，服务器返回的字符串。
+支持js访问，访问127.0.0.1:8080，来到主页面，上面的Hello是js访问服务器，服务器返回的字符串。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181113230553976.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0REZ2hzb3Q=,size_16,color_FFFFFF,t_70)
 
 输入用户名和密码后，登陆后显示了提交的表单信息
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181111121233243.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0REZ2hzb3Q=,size_16,color_FFFFFF,t_70)
 
-访问127.0.0.1/api/unknown,返回错误码 501
+访问127.0.0.1:8080/api/unknown,返回错误码 501
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/201811111213109.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0REZ2hzb3Q=,size_16,color_FFFFFF,t_70)
