@@ -33,6 +33,7 @@ func initRoutes(mx *mux.Router, formatter *render.Render) {
 			//`fmt.Println(root)
 		}
 	}
+	mx.HandleFunc("/api/test", apiTestHandler(formatter)).Methods("GET")
 	mx.HandleFunc("/api/unknown", NotImplemented).Methods("GET")
 	mx.HandleFunc("/", home).Methods("GET")
 	mx.HandleFunc("/", login).Methods("POST")
